@@ -21,7 +21,7 @@ def run_in_new_console(script_path):
         subprocess.Popen(['x-terminal-emulator', '-e', 'python', script_path])
 
 def run_osp_b1():
-  import Osprey_B1_sqlite_sql_ as osp_b1
+  import Osprey_B1_sqlite_sql_B as osp_b1
   return() 
 
 # Create an OPC UA client and connect to the server
